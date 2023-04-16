@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Vidura Cloud - Bake your ChatGPT prompts">
+  <meta name="twitter:title" content="Vidura - AI prompt manager for ChatGPT & More.">
+  
+  <meta name="description" content="Welcome to Vidura, a ChatGPT & AI Prompt Manager that allows you to easily create, retrieve, and search your prompts.">
+  <meta property="og:description" content="Welcome to Vidura, a ChatGPT & AI Prompt manager that allows you to easily create, retrieve, and search your prompts.">
+  <meta property="og:image" content="https://i.ibb.co/7Vyt7Kw/vidura-logo-grn.png">
+  <meta name="twitter:description" content="Are you interested in ChatGPT prompt-engineering ? Vidura is here to help">  
+  <meta name="twitter:image" content="https://i.ibb.co/7Vyt7Kw/vidura-logo-grn.png">
+  
+  <title>Vidura - AI Prompt Manager for ChatGPT</title>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <div class="background-image"></div>
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <img class="navbar-item logo" src="https://i.ibb.co/7Vyt7Kw/vidura-logo-grn.png" alt="vidura logo">
+      <a class="navbar-item logo-name" href="#">
+        <strong>Vidura</strong>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-center">
+        <a class="navbar-item" href="#why-vidura">Why Vidura AI?</a>
+        <a class="navbar-item" href="#features">Features</a>
+        <a class="navbar-item" href="https://github.com/narenaryan/Vidura" target="_blank">GitHub</a>
+      </div>
+      <div class="navbar-end">
+        <a class="navbar-item" href="http://cloud.vidura.ai/">Sign in</a>
+        <div class="navbar-item">
+          <a class="button is-black get-started-btn" href="https://cloud.vidura.ai" target="_blank">Get Started for free</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+   <!-- section 1 -->
+  <section class="section hero is-medium">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title main-title">
+          Supercharge your AI prompts with Vidura
+        </h1>
+        <h2 class="subtitle">
+          Create and organize ChatGPT and Stable diffusion prompts easily with Vidura's prompt management system
+        </h2>
+        <a class="button is-black get-started-btn" href="https://cloud.vidura.ai" target="_blank">Get Started for free</a>
+      </div>
+    </div>
+  </section>
+  <!-- section 2 -->
+  <section class="section">
+    <div class="container">
+      <div class="box custom-box is-rounded">
+        <div class="columns">
+          <div class="column">
+            <h3 class="title prompt-eng-title">
+              Prompt Engineering
+            </h3><div class="prompt-eng-sub-title">Art. Language. Whisper.</div>
+            <h4 class="subtitle is-6">
+              Prompt engineering is a new emerging domain where prompt engineers write prompts to get different types of output from AI systems.
+            </h4>
+          </div>
+          <div class="column vidura-stack-column">
+            <div class="columns is-multiline is-mobile">
+              <div class="column is-full">
+                <div class="box is-centered has-text-centered">Vidura</div>
+              </div>
+              <div class="column is-one-quarter">
+                <div class="box text-to-box">Text-to-Text (ChatGPT, Bard)</div>
+              </div>
+              <div class="column is-one-quarter">
+                <div class="box text-to-box">Text-to-Image (Stable Diffusion, Midjourney)</div>
+              </div>
+              <div class="column is-one-quarter">
+                <div class="box text-to-box">Text-to-Speech (Coqui, elevenlabs)</div>
+              </div>
+              <div class="column is-one-quarter">
+                <div class="box text-to-box">Text-to-Music (Boomy, Soundful)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+  </section>
+  <!-- section 3 -->
+  <section class="section" id="why-vidura">
+    <div class="container has-text-centered">
+      <h2 class="title">Why Vidura AI?</h2>
+      <p class="content vidura-description">
+        Vidura AI is a prompt manager designed for managing all your prompts targeting various AI generation systems, such as text-to-text, text-to-image, text-to-speech, and text-to-music platforms. With a centralized location for your prompts, it becomes easy to find, label, and copy them. Vidura AI offers a cloud-based platform where users can create an account within seconds and start working with prompts. Prompts serve as the source code for AI generation, making it essential to save, version control, and integrate them with different systems.
+        One can think Vidura as a Content Management System(CMS) for prompts, but with super powers.
+      </p>
+    </div>
+  </section>
+  <!-- section 4 -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="row">
+        <div class="has-text-centered" style="padding-bottom: 2rem;"><h2 class="title">Features</h2></div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <p>Add/Manage categories</p>
+          <div class="macbook-border">
+            <div class="circle red"></div>
+            <div class="circle yellow"></div>
+            <div class="circle green"></div>
+            <img id="feature-image" src="images/category.png" alt="Feature Image">
+          </div>
+        </div>
+        <div class="column">
+          <p>Mange Prompts</p>
+          <div class="macbook-border">
+            <div class="circle red"></div>
+            <div class="circle yellow"></div>
+            <div class="circle green"></div>
+            <img id="feature-image" src="images/prompt.png" alt="Feature Image">
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <p>Mange Prompts & rating prompts</p>
+          <div class="macbook-border">
+            <div class="circle red"></div>
+            <div class="circle yellow"></div>
+            <div class="circle green"></div>
+            <img id="feature-image" src="images/editor.png" alt="Feature Image">
+          </div>
+        </div>
+        <div class="column">
+          <p>Community</p>
+          <div class="macbook-border">
+            <div class="circle red"></div>
+            <div class="circle yellow"></div>
+            <div class="circle green"></div>
+            <img id="feature-image" src="images/community.png" alt="Feature Image">
+          </div>
+        </div>
+      </div>
+      <div class="container has-text-centered">
+        <a class="button is-black get-started-btn" href="https://cloud.vidura.ai" target="_blank">Get Started for free</a>
+      </div>
+    </div>
+  
+  </section>
+  <footer class="footer" id="features">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-8">
+          <p>With love <i class="fas fa-heart" style="color: red"></i> from <a href="https://happy-pythonist.com/" target="_blank">happy-pythonist.com</a></p>
+          <p> All rights reserved @ 2023.
+            <a href="https://github.com/narenaryan/Vidura" target="_blank">
+            GitHub&nbsp<i class="fab fa-github"></i>
+         </a></p>
+        </div>
+        <div class="column is-2">
+          <a href="https://vidura-docs.s3.us-west-2.amazonaws.com/Terms+%26+Conditions+Vidura+Cloud.pdf" target="_blank">Terms and conditions</a>
+        </div>
+        <div class="column is-2">
+          <a href="https://vidura-docs.s3.us-west-2.amazonaws.com/Privacy+Policy+Vidura+cloud.pdf" target="_blank">Privacy policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </body>
+  </html>
