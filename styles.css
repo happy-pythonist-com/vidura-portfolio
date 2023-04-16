@@ -1,6 +1,6 @@
 /* Custom Styles */
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .logo-name {
@@ -161,18 +161,38 @@ body {
   max-width: 100%;
 }
 
+.feature-title {
+  padding-bottom: 1rem;
+}
 
+.github-button .navbar-item {
+  font-size: 15px;
+}
+
+footer {
+  font-size: 12px;
+}
 @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
   .main-title {
     font-size: 40px;
     letter-spacing: -1.2px;
   }
 
+  .box.custom-box {
+    border-radius: 20px;
+  }
   .prompt-eng-title {
     font-size: 1.5rem;
   }
 
+  .prompt-eng-sub-title {
+    padding-bottom: 2rem;
+  }
   .vidura-stack-column {
     display: none !important;
+  }
+
+  .vidura-description {
+    text-align: inherit;
   }
 }
