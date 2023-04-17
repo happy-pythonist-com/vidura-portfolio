@@ -48,6 +48,13 @@ body {
   padding-right: 2rem;
 }
 
+.hero-section {
+  background: rgb(238,174,202);
+  background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+}
 .navbar-center {
   display: flex;
   position: absolute;
@@ -189,5 +196,35 @@ footer {
 
   .vidura-description {
     text-align: inherit;
+  }
+}
+
+
+@media screen and (device-width: 360px) and (device-height: 740px)  {
+  .main-title {
+    font-size: 40px;
+    letter-spacing: -1.2px;
+  }
+
+  .box.custom-box {
+    border-radius: 20px;
+  }
+  .prompt-eng-title {
+    font-size: 1.5rem;
+  }
+
+  .prompt-eng-sub-title {
+    padding-bottom: 2rem;
+  }
+  .vidura-stack-column {
+    display: none !important;
+  }
+
+  .vidura-description {
+    text-align: inherit;
+  }
+
+  .child-group {
+    display: none;
   }
 }
