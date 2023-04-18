@@ -228,3 +228,33 @@ footer {
     display: none;
   }
 }
+
+/* Pixel 5 media query */
+@media only screen and (min-width: 393px) and (max-width: 767px) {
+  .main-title {
+    font-size: 40px;
+    letter-spacing: -1.2px;
+  }
+
+  .box.custom-box {
+    border-radius: 20px;
+  }
+  .prompt-eng-title {
+    font-size: 1.5rem;
+  }
+
+  .prompt-eng-sub-title {
+    padding-bottom: 2rem;
+  }
+  .vidura-stack-column {
+    display: none !important;
+  }
+
+  .vidura-description {
+    text-align: inherit;
+  }
+
+  .child-group {
+    display: none;
+  }
+}
