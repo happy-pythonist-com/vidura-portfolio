@@ -4,22 +4,6 @@ body {
   font-display: swap;
 }
 
-h1 {
-  font-family: 'Poppins', sans-serif;
-}
-
-h2 {
-  font-family: 'Poppins', sans-serif;
-}
-
-h3 {
-  font-family: 'Poppins', sans-serif;
-}
-.logo-name {
-  font-size: 1.5rem;
-  font-family: 'Poppins', 'sans-serif';
-}
-
 .logo {
   height: 50px;
   padding-right: 0px;
