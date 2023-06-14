@@ -2,7 +2,9 @@
 body {
   font-family: 'Lexend Deca', sans-serif;
   font-display: swap;
+  color: #5a5f69;
 }
+
 
 .logo {
   height: 50px;
@@ -16,14 +18,25 @@ body {
 .button.is-black.get-started-btn:hover {
   background-color: #423939;
 }
+
 .navbar {
-  background-color: transparent;
+  background-color: white;
   transition: background-color 0.3s;
   height: 1.2rem;
+  line-height: 1.75rem;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,.05)!important;
 }
 
 .navbar.is-solid {
   background-color: white;
+}
+
+.columns {
+  padding-bottom: 2rem;
+}
+
+.feature-title {
+  padding-bottom: 1rem;
 }
 
 .navbar-item {
@@ -31,7 +44,7 @@ body {
 }
 
 .button.is-black {
-  background-color: black;
+  background-color: #081f2e;
   color: white;
 }
 
@@ -43,13 +56,10 @@ body {
   padding-right: 2rem;
 }
 
-.hero-section {
-  background: rgb(238,174,202);
-  background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+.player {
+  height: 500px;
 }
+
 .navbar-center {
   display: flex;
   position: absolute;
@@ -67,11 +77,18 @@ body {
 
 .box.custom-box {
   background-color: #32302f;
-  border-radius: 5.6rem;
+  border-radius: 20px;
   height: 100%;
   padding: 5rem;
   margin-left: 3%;
-  z-index: 1
+  z-index: 1;
+}
+
+.feature-paragraph {
+  background: whitesmoke;
+  color: black;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .title.is-4,
@@ -98,17 +115,6 @@ body {
   font-size: 20px;
 }
 
-.background-image {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.5), rgba(245, 245, 245, 0.5)), url('images/gradient.webp');
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-}
 
 .image-container {
   position: sticky;
@@ -122,6 +128,7 @@ body {
   border-radius: 5px;
   padding: 25px 10px 10px;
   background-color: #fff;
+  box-shadow: 0 4px 12px 0 rgba(0.5,0.5,0.5,.05)!important;
 }
 
 
@@ -177,6 +184,7 @@ footer {
 
   .box.custom-box {
     border-radius: 20px;
+    padding: 15px;
   }
   .prompt-eng-title {
     font-size: 1.5rem;
@@ -203,6 +211,7 @@ footer {
 
   .box.custom-box {
     border-radius: 20px;
+    padding: 15px;
   }
   .prompt-eng-title {
     font-size: 1.5rem;
@@ -233,6 +242,7 @@ footer {
 
   .box.custom-box {
     border-radius: 20px;
+    padding: 15px;
   }
   .prompt-eng-title {
     font-size: 1.5rem;
