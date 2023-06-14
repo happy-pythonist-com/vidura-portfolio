@@ -23,7 +23,9 @@ body {
   width: 650px;
   padding: 0;
   overflow: hidden;
-  margin-left: 22%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -195,8 +197,9 @@ footer {
 @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
   #wrap {
     width: auto;
-    margin-left: 0;
+    display: contents;
   }
+
   .main-title {
     font-size: 40px;
     letter-spacing: -1.2px;
@@ -226,7 +229,7 @@ footer {
 @media screen and (device-width: 360px) and (device-height: 740px)  {
   #wrap {
     width: auto;
-    margin-left: 0;
+    display: contents;
   }
 
   .main-title {
@@ -262,7 +265,7 @@ footer {
 @media only screen and (min-width: 393px) and (max-width: 767px) {
   #wrap {
     width: auto;
-    margin-left: 0;
+    display: contents;
   }
 
   .main-title {
