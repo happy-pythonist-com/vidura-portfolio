@@ -54,7 +54,7 @@ body {
 }
 
 .button.is-black {
-  background-color: #081f2e;
+  background-color: #1a73e8;;
   color: white;
 }
 
@@ -80,42 +80,41 @@ body {
 }
 
 .main-title {
-  font-size: 56px;
+  font-size: 46px;
   letter-spacing: -1.2px;
   line-height: 1.14;
+  color: #57b950;
 }
 
 .box.custom-box {
-  background-color: #32302f;
+  background-color: whitesmoke;
   border-radius: 20px;
   height: 100%;
-  padding: 5rem;
+  padding: 2rem;
   margin-left: 3%;
   z-index: 1;
 }
 
 .feature-paragraph {
-  background: whitesmoke;
+  background: white;
   color: black;
   padding: 20px;
   border-radius: 20px;
 }
 
-.title.is-4,
-.subtitle.is-6 {
-  color: white;
+.title {
+  color: #57b950;
 }
 
 .prompt-eng-title {
-  font-size: clamp(2.6rem, 2.38vw + 2.54rem, 4.2rem);
+  font-size: clamp(2.6rem, 2.38vw + 2.54rem, 3.2rem);
   font-weight: 600;
   letter-spacing: -0.0075em;
   line-height: 108%;
-  color: #65e74d;
 }
 
+
 .prompt-eng-sub-title {
-    color: white;
     font-size: 2rem;
     font-weight: 600;
 }
@@ -183,11 +182,14 @@ footer {
 }
 
 .hero-body {
-  padding-bottom: 20px !important;  
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05)!important;
 }
 
 .hero-section {
   padding-bottom: 10px;
+  background-color: whitesmoke;
 }
 
 .hero-background-video {
