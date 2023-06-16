@@ -80,10 +80,16 @@ body {
 }
 
 .main-title {
-  font-size: 46px;
+  font-size: 50px;
   letter-spacing: -1.2px;
   line-height: 1.14;
   color: #57b950;
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+.subtitle {
+  text-align: left;
 }
 
 .box.custom-box {
@@ -185,10 +191,11 @@ footer {
     background: white;
     border-radius: 20px;
     box-shadow: 0 4px 12px 0 rgba(0,0,0,.05)!important;
+    padding-top: 30px !important; 
+    padding-bottom: 30px !important;
 }
 
 .hero-section {
-  padding-bottom: 10px;
   background-color: whitesmoke;
 }
 
